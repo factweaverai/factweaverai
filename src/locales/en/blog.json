@@ -1,0 +1,10 @@
+{
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Insights on investigative journalism, AI-powered verification, and the fight against disinformation",
+    "readMore": "Read More",
+    "backToBlog": "Back to Blog",
+    "publishedOn": "Published on",
+    "byAuthor": "by"
+  }
+}

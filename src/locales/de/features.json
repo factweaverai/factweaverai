@@ -1,0 +1,123 @@
+{
+  "featuresPage": {
+    "hero": {
+      "badge": "Investigative Intelligenz",
+      "title": "Alles, was Sie brauchen, um die Wahrheit aufzudecken",
+      "subtitle": "Von der Dokumentenaufnahme bis zur Widerspruchserkennung - FactWeaver bietet die komplette Plattform für investigativen Journalismus in jeder Größenordnung.",
+      "cta": "Kostenlos testen",
+      "ctaSecondary": "Preise ansehen"
+    },
+    "main": {
+      "graphRag": {
+        "title": "GraphRAG-Intelligenz",
+        "description": "Unser Wissensgraph versteht die tiefen Beziehungen zwischen Personen, Organisationen, Transaktionen und Dokumenten. Stellen Sie Fragen in natürlicher Sprache und entdecken Sie Verbindungen, die manuell Monate dauern würden.",
+        "benefits": [
+          "Natürlichsprachliche Abfragen über alle Ihre Dokumente",
+          "Automatische Entitätsextraktion (Personen, Orgs, Geld)",
+          "Beziehungs-Mapping und Pfadfindung",
+          "Quellenangaben für jede Verbindung",
+          "Netzwerkerkennung für versteckte Strukturen"
+        ]
+      },
+      "visualization": {
+        "title": "Das Holoboard",
+        "description": "Ein 3D, WebGL-basiertes Detektiv-Board, das Ihre Ermittlung zum Leben erweckt. Pinnen Sie Entitäten, verfolgen Sie Verbindungen und nutzen Sie den Zeitleisten-Regler als 'DVR für Korruption', um zu beobachten, wie Beziehungen im Laufe der Zeit entstehen.",
+        "benefits": [
+          "Interaktive 3D-Visualisierung von Beziehungen",
+          "Zeitleisten-Regler für zeitliche Analyse",
+          "Klick-zum-Verfolgen Pfadfindung zwischen Entitäten",
+          "Export von Visualisierungen zur Veröffentlichung",
+          "Kollaborative Ermittlungs-Boards"
+        ]
+      },
+      "ingestion": {
+        "title": "Der LeakLoader",
+        "description": "Universeller Adapter für die chaotische Realität geleakter Daten. Drag-and-Drop jedes Format - E-Mails, PDFs, Tabellen, Datenbank-Dumps - und beobachten Sie, wie FactWeaver Entitäten extrahiert, Sanktionslisten abgleicht und Ihren Wissensgraphen baut.",
+        "benefits": [
+          "PST/MBOX E-Mail-Aufnahme",
+          "PDF OCR und Textextraktion",
+          "CSV/Excel Finanzanalyse",
+          "Automatische Entitätserkennung",
+          "Sanktionslisten-Abgleich (OFAC, EU, UN)"
+        ]
+      },
+      "governance": {
+        "title": "Der Fact-Linter",
+        "description": "Aktive Widerspruchserkennung, die funktioniert, während Sie schreiben. Unsere Chrome- und Word-Erweiterung hebt Behauptungen hervor, die Ihrer Beweislage widersprechen, und liefert Quellenangaben zur Stärkung Ihrer Berichterstattung.",
+        "benefits": [
+          "Echtzeit-Widerspruchserkennung",
+          "Quellenangaben-Vorschläge",
+          "Verleumdungsrisiko-Markierung",
+          "Integration mit großen Publishing-Tools",
+          "Benutzerdefinierte Verifizierungsregeln"
+        ]
+      }
+    },
+    "additional": {
+      "title": "Und vieles mehr",
+      "subtitle": "Jede Funktion entwickelt, um Ihnen zu helfen, schneller zu ermitteln und mit Vertrauen zu veröffentlichen.",
+      "features": {
+        "timeMachine": {
+          "title": "Zeitleisten-Analyse",
+          "description": "Navigieren Sie durch die Zeit, um zu sehen, wann Entitäten erstmals erschienen, wann Beziehungen entstanden und wie Netzwerke sich entwickelten."
+        },
+        "personas": {
+          "title": "Team-Zusammenarbeit",
+          "description": "Sichere Arbeitsbereiche für Investigativteams mit rollenbasiertem Zugriff und Audit-Protokollierung."
+        },
+        "search": {
+          "title": "Semantische Suche",
+          "description": "Finden Sie relevante Dokumente, auch wenn Sie nicht die genauen Suchbegriffe kennen."
+        },
+        "alerts": {
+          "title": "Der Maulwurf",
+          "description": "Hintergrund-Überwachung, die Sie benachrichtigt, wenn neue Dokumente mit Ihren Ermittlungszielen verbunden sind."
+        },
+        "analytics": {
+          "title": "Ermittlungs-Analytik",
+          "description": "Verfolgen Sie Ihren Fortschritt, identifizieren Sie Lücken in Ihren Beweisen und priorisieren Sie Hinweise."
+        },
+        "workflows": {
+          "title": "Export & Veröffentlichen",
+          "description": "Generieren Sie Zeitleisten, Beziehungsdiagramme und Beweispakete zur Veröffentlichung."
+        },
+        "security": {
+          "title": "Air-Gap-Ready",
+          "description": "Volle Funktionalität auf isolierten Netzwerken für maximalen Quellenschutz."
+        },
+        "performance": {
+          "title": "Leak-Scale-Ready",
+          "description": "Gebaut für Terabytes von Dokumenten und Millionen von Entitäten."
+        }
+      }
+    },
+    "capabilities": {
+      "title": "Gebaut für echte Ermittlungen",
+      "subtitle": "Fähigkeiten, die für die Komplexität und Sensibilität des investigativen Journalismus entwickelt wurden.",
+      "items": {
+        "codeAnalysis": {
+          "title": "Multi-Format-Unterstützung",
+          "description": "PST, MBOX, PDF, CSV, HTML, JSON und mehr. Wir handhaben die Formate, in denen geleakte Daten tatsächlich kommen."
+        },
+        "docSync": {
+          "title": "Entitätsauflösung",
+          "description": "Automatischer Abgleich von Namensvarianten und Organisationen über Dokumente und Quellen hinweg."
+        },
+        "multiRepo": {
+          "title": "Multi-Quellen-Fusion",
+          "description": "Kombinieren Sie geleakte Dokumente mit öffentlichen Aufzeichnungen, Unternehmenseinreichungen und Sanktionsdatenbanken."
+        },
+        "globalScale": {
+          "title": "Local-First-Datenschutz",
+          "description": "Bereitstellung auf Ihrer eigenen Infrastruktur für vollständigen Quellenschutz. Null Daten-Egress."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihre Ermittlungen zu transformieren?",
+      "subtitle": "Schließen Sie sich Investigativteams weltweit an, die FactWeaver vertrauen, um die Wahrheit aufzudecken.",
+      "button": "Kostenlose Testversion starten"
+    },
+    "learnMore": "Mehr erfahren"
+  }
+}

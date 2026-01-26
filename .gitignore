@@ -1,0 +1,6 @@
+.claude
+.next
+node_modules
+out
+build_log.txt
+lint_log.txt

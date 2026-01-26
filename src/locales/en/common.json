@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "title": "FactWeaver - The Active Fact-Checking Engine",
+    "description": "Bridge the Narrative Gap between what public figures say and what the data proves. AI-powered investigative intelligence for journalists."
+  },
+  "nav": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "signIn": "Sign In"
+  },
+  "cta": {
+    "title": "Ready to Uncover the Truth?",
+    "description": "Start your investigation today. Free tier available for independent journalists.",
+    "button": "Get Started Free"
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "company": {
+      "title": "Company Information",
+      "name": "FactWeaver Technologies",
+      "address": "Secure Location",
+      "city": "Global Operations",
+      "country": "Distributed",
+      "register": "Registered in privacy-friendly jurisdiction",
+      "vat": "Available upon request"
+    },
+    "representatives": {
+      "title": "Leadership",
+      "list": [
+        "Dr. Elena Voss",
+        "Marcus Chen"
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "legal@FactWeaver.io",
+      "phone": "Via secure channels only"
+    },
+    "responsibility": {
+      "title": "Responsible for Content",
+      "name": "Dr. Elena Voss",
+      "address": "Contact via secure channels"
+    },
+    "dispute": {
+      "title": "Dispute Resolution",
+      "content": "For legal matters, please contact legal@FactWeaver.io. We are committed to resolving disputes through good-faith negotiation."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 1, 2026",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing and using FactWeaver's services, you accept and agree to be bound by these terms. If you do not agree, please do not use our services."
+      },
+      "services": {
+        "title": "2. Description of Services",
+        "content": "FactWeaver provides investigative intelligence tools including document analysis, entity extraction, relationship mapping, and fact-checking capabilities. Services are provided on a subscription basis as described in your service agreement."
+      },
+      "account": {
+        "title": "3. Account Responsibilities",
+        "content": "You are responsible for maintaining the confidentiality of your account credentials and for all activities under your account. You must notify us immediately of any unauthorized use."
+      },
+      "usage": {
+        "title": "4. Acceptable Use",
+        "content": "You agree to use our services only for lawful investigative purposes. You may not use our services to harass individuals, violate privacy laws, or conduct activities outside legitimate journalism and research."
+      },
+      "data": {
+        "title": "5. Data and Privacy",
+        "content": "Your use of our services is governed by our Privacy Policy. We are committed to source protection and data minimization. For maximum security, consider our self-hosted Bunker deployment."
+      },
+      "ip": {
+        "title": "6. Intellectual Property",
+        "content": "FactWeaver's technology, including our GraphRAG engine and visualization tools, is protected by intellectual property laws. Your investigation data remains entirely yours."
+      },
+      "liability": {
+        "title": "7. Limitation of Liability",
+        "content": "FactWeaver provides tools for investigation but does not guarantee the accuracy of extracted information. Journalists remain responsible for verification before publication."
+      },
+      "termination": {
+        "title": "8. Termination",
+        "content": "We may terminate access for violations of these terms. Upon termination, you can export all your data. We never retain investigation data after account closure."
+      },
+      "changes": {
+        "title": "9. Changes to Terms",
+        "content": "We may modify these terms with notice. Continued use after changes constitutes acceptance."
+      },
+      "governing": {
+        "title": "10. Governing Law",
+        "content": "These terms shall be governed by applicable international law, with disputes resolved through arbitration in a neutral jurisdiction."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 1, 2026",
+    "intro": "FactWeaver is built on a foundation of privacy. We believe source protection and data minimization aren't features - they're requirements. This policy explains how we handle your information.",
+    "sections": {
+      "collection": {
+        "title": "1. Information We Collect",
+        "content": "We collect only what's necessary: account information for billing and support, and usage metrics to improve our service. For Bunker deployments, we collect nothing - your data never touches our systems."
+      },
+      "usage": {
+        "title": "2. How We Use Your Information",
+        "content": "Account information is used for service delivery and support. We never analyze, mine, or monetize your investigation data. Period."
+      },
+      "sharing": {
+        "title": "3. Information Sharing",
+        "content": "We never share your data with third parties. We have no advertising partners, no data brokers, no exceptions. We will resist any legal demands for user data to the fullest extent possible."
+      },
+      "security": {
+        "title": "4. Data Security",
+        "content": "All cloud data is encrypted at rest and in transit. For maximum security, our Bunker deployment runs entirely on your infrastructure with zero network egress."
+      },
+      "retention": {
+        "title": "5. Data Retention",
+        "content": "We retain account data only while your account is active. Upon deletion, all data is permanently removed within 30 days. We keep no backups of investigation data."
+      },
+      "rights": {
+        "title": "6. Your Rights",
+        "content": "You can export all your data at any time. You can delete your account and all associated data at any time. No questions asked."
+      },
+      "cookies": {
+        "title": "7. Cookies",
+        "content": "We use only essential cookies for authentication. No tracking cookies, no analytics pixels, no third-party scripts."
+      },
+      "changes": {
+        "title": "8. Changes to This Policy",
+        "content": "We will notify you of any changes via email. We will never weaken privacy protections without explicit opt-in consent."
+      },
+      "contact": {
+        "title": "9. Contact Us",
+        "content": "For privacy concerns, contact privacy@FactWeaver.io. For sensitive communications, use our SecureDrop or Signal."
+      }
+    }
+  },
+  "footer": {
+    "description": "The Active Fact-Checking Engine for investigative journalism.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "integrations": "Data Sources",
+      "changelog": "Updates"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "blog": "Blog",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "resources": {
+      "title": "Resources",
+      "docs": "Documentation",
+      "api": "API Reference",
+      "guides": "Investigation Guides",
+      "support": "Support"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "impressum": "Legal Notice"
+    },
+    "newsletter": {
+      "title": "Stay informed",
+      "description": "Get updates on investigative tools and journalism resources.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "success": "Thanks for subscribing!",
+      "error": "Please enter a valid email."
+    },
+    "copyright": "All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "about": {
+    "title": "About FactWeaver",
+    "subtitle": "We're on a mission to arm truth-seekers with AI-powered investigative intelligence.",
+    "story": {
+      "title": "Our Story",
+      "content": "FactWeaver was born from a simple observation: the world is drowning in leaked documents and disinformation, but the tools to connect the dots haven't kept up. Journalists receive terabytes of data but lack the means to find the needle in the haystack.\n\nWe've lived this frustration working alongside investigative teams at major publications. We saw reporters spending months manually cross-referencing documents, missing crucial connections hidden in plain sight.\n\nWe built FactWeaver to be the 'Operating System for Truth' - a platform that doesn't just search documents, but actively reasons about relationships, surfaces contradictions, and protects sources with military-grade privacy.\n\nToday, we're helping investigative teams around the world hold power accountable, one verified connection at a time."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To bridge the Narrative Gap - the distance between what powerful figures claim and what the evidence proves - empowering journalists to verify truth at the speed of disinformation."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Source Protection First",
+          "description": "Nothing matters more than protecting those who risk everything to expose the truth. Privacy isn't a feature - it's our foundation."
+        },
+        {
+          "title": "Accuracy Above Speed",
+          "description": "In the fight against disinformation, being right matters more than being first. We build tools that verify, not amplify."
+        },
+        {
+          "title": "Democratize Investigation",
+          "description": "Powerful investigative tools shouldn't be reserved for the largest newsrooms. We make professional-grade intelligence accessible to all truth-seekers."
+        },
+        {
+          "title": "Transparent Technology",
+          "description": "Our AI explains its reasoning and cites its sources. No black boxes. Every connection can be traced back to evidence."
+        }
+      ]
+    },
+    "team": {
+      "title": "Leadership Team",
+      "members": [
+        {
+          "name": "Dr. Elena Voss",
+          "role": "CEO & Co-Founder",
+          "bio": "Former investigative data journalist at ICIJ. Led data analysis for the Panama Papers investigation."
+        },
+        {
+          "name": "Marcus Chen",
+          "role": "CTO & Co-Founder",
+          "bio": "Ex-Security Lead at Signal. PhD in Privacy-Preserving Systems from MIT."
+        },
+        {
+          "name": "Anna Kowalski",
+          "role": "VP of Product",
+          "bio": "Former product lead at Bellingcat. Expert in OSINT tools and methodologies."
+        },
+        {
+          "name": "James Okonkwo",
+          "role": "VP of Engineering",
+          "bio": "Built secure collaboration platforms at The Guardian and Der Spiegel."
+        }
+      ]
+    }
+  }
+}

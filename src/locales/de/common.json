@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "title": "FactWeaver - Die Aktive Faktenprüfungs-Engine",
+    "description": "Überbrücken Sie die Narrativ-Lücke zwischen dem, was öffentliche Persönlichkeiten sagen, und dem, was die Daten beweisen. KI-gestützte investigative Intelligenz für Journalisten."
+  },
+  "nav": {
+    "home": "Startseite",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "getStarted": "Jetzt starten",
+    "signIn": "Anmelden"
+  },
+  "cta": {
+    "title": "Bereit, die Wahrheit aufzudecken?",
+    "description": "Starten Sie Ihre Ermittlung heute. Kostenlose Stufe für unabhängige Journalisten verfügbar.",
+    "button": "Kostenlos starten"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "company": {
+      "title": "Unternehmensangaben",
+      "name": "FactWeaver Technologies",
+      "address": "Sicherer Standort",
+      "city": "Globaler Betrieb",
+      "country": "Verteilt",
+      "register": "Registriert in datenschutzfreundlicher Jurisdiktion",
+      "vat": "Auf Anfrage verfügbar"
+    },
+    "representatives": {
+      "title": "Führung",
+      "list": [
+        "Dr. Elena Voss",
+        "Marcus Chen"
+      ]
+    },
+    "contact": {
+      "title": "Kontakt",
+      "email": "legal@FactWeaver.io",
+      "phone": "Nur über sichere Kanäle"
+    },
+    "responsibility": {
+      "title": "Verantwortlich für den Inhalt",
+      "name": "Dr. Elena Voss",
+      "address": "Kontakt über sichere Kanäle"
+    },
+    "dispute": {
+      "title": "Streitbeilegung",
+      "content": "Für rechtliche Angelegenheiten kontaktieren Sie bitte legal@FactWeaver.io. Wir sind der Beilegung von Streitigkeiten durch guten Glauben verpflichtet."
+    }
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: 1. Januar 2026",
+    "sections": {
+      "acceptance": {
+        "title": "1. Annahme der Bedingungen",
+        "content": "Durch den Zugriff auf und die Nutzung der Dienste von FactWeaver akzeptieren Sie diese Bedingungen. Wenn Sie nicht zustimmen, nutzen Sie bitte unsere Dienste nicht."
+      },
+      "services": {
+        "title": "2. Beschreibung der Dienste",
+        "content": "FactWeaver bietet investigative Intelligenz-Tools einschließlich Dokumentenanalyse, Entitätsextraktion, Beziehungs-Mapping und Faktenprüfungs-Funktionen. Die Dienste werden auf Abonnementbasis gemäß Ihrem Servicevertrag bereitgestellt."
+      },
+      "account": {
+        "title": "3. Kontoverantwortlichkeiten",
+        "content": "Sie sind für die Wahrung der Vertraulichkeit Ihrer Kontoanmeldedaten und für alle Aktivitäten unter Ihrem Konto verantwortlich. Sie müssen uns unverzüglich über jede unbefugte Nutzung informieren."
+      },
+      "usage": {
+        "title": "4. Zulässige Nutzung",
+        "content": "Sie stimmen zu, unsere Dienste nur für rechtmäßige investigative Zwecke zu nutzen. Sie dürfen unsere Dienste nicht nutzen, um Personen zu belästigen, Datenschutzgesetze zu verletzen oder Aktivitäten außerhalb legitimen Journalismus und Forschung durchzuführen."
+      },
+      "data": {
+        "title": "5. Daten und Datenschutz",
+        "content": "Ihre Nutzung unserer Dienste unterliegt unserer Datenschutzrichtlinie. Wir sind dem Quellenschutz und der Datenminimierung verpflichtet. Für maximale Sicherheit erwägen Sie unsere self-hosted Bunker-Bereitstellung."
+      },
+      "ip": {
+        "title": "6. Geistiges Eigentum",
+        "content": "FactWeavers Technologie, einschließlich unserer GraphRAG-Engine und Visualisierungstools, ist durch Gesetze zum Schutz geistigen Eigentums geschützt. Ihre Ermittlungsdaten bleiben vollständig Ihres."
+      },
+      "liability": {
+        "title": "7. Haftungsbeschränkung",
+        "content": "FactWeaver bietet Werkzeuge für Ermittlungen, garantiert aber nicht die Genauigkeit extrahierter Informationen. Journalisten bleiben für die Verifizierung vor Veröffentlichung verantwortlich."
+      },
+      "termination": {
+        "title": "8. Kündigung",
+        "content": "Wir können den Zugang bei Verstößen gegen diese Bedingungen kündigen. Bei Kündigung können Sie alle Ihre Daten exportieren. Wir behalten niemals Ermittlungsdaten nach Kontoschließung."
+      },
+      "changes": {
+        "title": "9. Änderungen der Bedingungen",
+        "content": "Wir können diese Bedingungen mit Vorankündigung ändern. Fortgesetzte Nutzung nach Änderungen gilt als Annahme."
+      },
+      "governing": {
+        "title": "10. Anwendbares Recht",
+        "content": "Diese Bedingungen unterliegen dem anwendbaren internationalen Recht, wobei Streitigkeiten durch Schiedsverfahren in einer neutralen Jurisdiktion beigelegt werden."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: 1. Januar 2026",
+    "intro": "FactWeaver basiert auf einem Fundament des Datenschutzes. Wir glauben, dass Quellenschutz und Datenminimierung keine Funktionen sind - sie sind Anforderungen. Diese Richtlinie erklärt, wie wir mit Ihren Informationen umgehen.",
+    "sections": {
+      "collection": {
+        "title": "1. Von uns erfasste Informationen",
+        "content": "Wir erfassen nur das Notwendige: Kontoinformationen für Abrechnung und Support sowie Nutzungsmetriken zur Verbesserung unseres Dienstes. Bei Bunker-Bereitstellungen erfassen wir nichts - Ihre Daten berühren niemals unsere Systeme."
+      },
+      "usage": {
+        "title": "2. Wie wir Ihre Informationen verwenden",
+        "content": "Kontoinformationen werden für Servicebereitstellung und Support verwendet. Wir analysieren, schürfen oder monetarisieren niemals Ihre Ermittlungsdaten. Punkt."
+      },
+      "sharing": {
+        "title": "3. Weitergabe von Informationen",
+        "content": "Wir teilen Ihre Daten niemals mit Dritten. Wir haben keine Werbepartner, keine Datenmakler, keine Ausnahmen. Wir werden jeden rechtlichen Forderungen nach Nutzerdaten so weit wie möglich widerstehen."
+      },
+      "security": {
+        "title": "4. Datensicherheit",
+        "content": "Alle Cloud-Daten sind im Ruhezustand und bei der Übertragung verschlüsselt. Für maximale Sicherheit läuft unsere Bunker-Bereitstellung vollständig auf Ihrer Infrastruktur ohne Netzwerk-Egress."
+      },
+      "retention": {
+        "title": "5. Datenspeicherung",
+        "content": "Wir speichern Kontodaten nur während Ihr Konto aktiv ist. Bei Löschung werden alle Daten innerhalb von 30 Tagen dauerhaft entfernt. Wir behalten keine Backups von Ermittlungsdaten."
+      },
+      "rights": {
+        "title": "6. Ihre Rechte",
+        "content": "Sie können alle Ihre Daten jederzeit exportieren. Sie können Ihr Konto und alle zugehörigen Daten jederzeit löschen. Keine Fragen gestellt."
+      },
+      "cookies": {
+        "title": "7. Cookies",
+        "content": "Wir verwenden nur wesentliche Cookies für die Authentifizierung. Keine Tracking-Cookies, keine Analytics-Pixel, keine Drittanbieter-Skripte."
+      },
+      "changes": {
+        "title": "8. Änderungen dieser Richtlinie",
+        "content": "Wir werden Sie über Änderungen per E-Mail informieren. Wir werden niemals Datenschutzschutz ohne explizite Opt-in-Zustimmung abschwächen."
+      },
+      "contact": {
+        "title": "9. Kontaktieren Sie uns",
+        "content": "Bei Datenschutzbedenken kontaktieren Sie privacy@FactWeaver.io. Für sensible Kommunikation nutzen Sie unseren SecureDrop oder Signal."
+      }
+    }
+  },
+  "footer": {
+    "description": "Die aktive Faktenprüfungs-Engine für investigativen Journalismus.",
+    "product": {
+      "title": "Produkt",
+      "features": "Funktionen",
+      "pricing": "Preise",
+      "integrations": "Datenquellen",
+      "changelog": "Updates"
+    },
+    "company": {
+      "title": "Unternehmen",
+      "about": "Über uns",
+      "blog": "Blog",
+      "careers": "Karriere",
+      "contact": "Kontakt"
+    },
+    "resources": {
+      "title": "Ressourcen",
+      "docs": "Dokumentation",
+      "api": "API-Referenz",
+      "guides": "Ermittlungs-Leitfäden",
+      "support": "Support"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen",
+      "impressum": "Impressum"
+    },
+    "newsletter": {
+      "title": "Informiert bleiben",
+      "description": "Erhalten Sie Updates zu investigativen Tools und Journalismus-Ressourcen.",
+      "placeholder": "E-Mail eingeben",
+      "button": "Abonnieren",
+      "success": "Danke fürs Abonnieren!",
+      "error": "Bitte geben Sie eine gültige E-Mail ein."
+    },
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Jetzt starten",
+    "contactUs": "Kontaktieren Sie uns",
+    "back": "Zurück",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "success": "Erfolgreich"
+  }
+}

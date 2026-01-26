@@ -1,0 +1,107 @@
+{
+  "pricing": {
+    "title": "Privacy-First Pricing",
+    "subtitle": "Cloud is accessible. Privacy is premium. Choose the deployment that matches your security needs.",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "save": "Save 20%",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "plans": {
+      "starter": {
+        "name": "Freelancer",
+        "description": "For independent journalists, students, and OSINT researchers",
+        "priceMonthly": "$29",
+        "priceAnnually": "$23",
+        "features": [
+          "2 GB Document Storage",
+          "Public Data Sources (Sanctions, Politicians)",
+          "Basic Graph Visualization",
+          "Shared Cloud LLM",
+          "Community Support"
+        ],
+        "cta": "Start Free"
+      },
+      "growth": {
+        "name": "Newsroom",
+        "description": "For mid-sized publications and investigative teams",
+        "priceMonthly": "$499",
+        "priceAnnually": "$399",
+        "features": [
+          "1 TB Secure Storage",
+          "5 Team Seats Included",
+          "Collaborative Holoboards",
+          "The Fact-Linter Extension",
+          "Private Team Knowledge Graph",
+          "GraphRAG Intelligence",
+          "Priority Support"
+        ],
+        "cta": "Start Trial",
+        "popular": "Most Popular"
+      },
+      "enterprise": {
+        "name": "The Bunker",
+        "description": "Self-hosted for ICIJ, major newsrooms, and NGOs handling whistleblower data",
+        "priceMonthly": "$2,500",
+        "priceAnnually": "$25,000",
+        "isYearly": true,
+        "features": [
+          "100% Air-Gapped Operation",
+          "Local LLM Support (Llama/Mistral)",
+          "Zero Data Egress",
+          "Unlimited Document Ingestion",
+          "Source Isolation (ZK Proofs)",
+          "Docker/Kubernetes Deployment",
+          "Dedicated Success Manager",
+          "Custom Training"
+        ],
+        "cta": "Contact Sales"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Is my data safe in the cloud version?",
+          "answer": "Yes, all cloud data is encrypted at rest and in transit. However, for extremely sensitive investigations (whistleblower level), we recommend The Bunker self-hosted option where data never leaves your premises."
+        },
+        {
+          "question": "Can I run FactWeaver completely offline?",
+          "answer": "Yes, The Bunker tier runs 100% offline with local LLM support (Llama 3, Mistral). Perfect for air-gapped environments and maximum source protection. Your data never leaves your machine."
+        },
+        {
+          "question": "What file formats do you support?",
+          "answer": "We support PST/MBOX (emails), PDF with OCR (documents), CSV/Excel (financial data), HTML (web scrapes), Word documents, scanned images, and most common formats. Our LeakLoader handles the messy reality of real-world leaked data."
+        },
+        {
+          "question": "Do you offer discounts for non-profits?",
+          "answer": "Yes, we offer significant discounts for NGOs, academic institutions, and non-profit investigative organizations. Contact us to learn more about our mission-aligned pricing."
+        },
+        {
+          "question": "What is GraphRAG and how does it help investigations?",
+          "answer": "GraphRAG combines Knowledge Graphs with AI reasoning. Instead of just searching documents, FactWeaver builds a graph of entities (people, organizations, money flows) and uses AI to find hidden connections across millions of documents - like discovering a senator's brother is a director of a shell company mentioned in leaked papers."
+        },
+        {
+          "question": "What is the Holoboard?",
+          "answer": "The Holoboard is our visual investigation canvas - think of it as a digital detective board. It shows entities as nodes and their relationships as connections. The Timeline Slider lets you see how relationships formed over time, and Pathfinding illuminates the shortest path of money or influence between any two entities."
+        },
+        {
+          "question": "How does the Fact-Linter work?",
+          "answer": "The Fact-Linter is a browser/editor extension that actively checks your writing against your evidence. As you type 'The Senator has no connection to the project,' it will flag contradictions from your knowledge graph in real-time, citing the source document."
+        },
+        {
+          "question": "How is FactWeaver different from Google Pinpoint?",
+          "answer": "Google Pinpoint finds documents. FactWeaver finds contradictions. Pinpoint is excellent at OCR and keyword search, but it can't tell you that John Smith in Doc #1 is secretly funding the Senator in Doc #4. FactWeaver's GraphRAG engine reasons across documents to surface hidden connections."
+        },
+        {
+          "question": "Can multiple team members collaborate on an investigation?",
+          "answer": "Yes, Newsroom and Bunker tiers support collaborative Holoboards where multiple investigators can work on the same knowledge graph simultaneously. Changes sync in real-time while maintaining audit trails of who discovered what."
+        },
+        {
+          "question": "What sanctions lists do you integrate with?",
+          "answer": "We automatically cross-reference ingested names against OFAC (US), EU, and UN sanctions lists, plus Interpol notices. The Sanctions Matcher runs on every document, alerting you instantly when a sanctioned entity appears in your evidence."
+        }
+      ]
+    }
+  }
+}

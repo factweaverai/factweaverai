@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "tagline": "KI-gestützte Investigative Intelligenz",
+    "titlePrefix": "Überbrücken Sie die Lücke zwischen",
+    "rotatingWords": [
+      "Narrativ",
+      "Beweisen",
+      "Behauptungen",
+      "Realität",
+      "Aussagen",
+      "Wahrheit"
+    ],
+    "titleSuffix": "und den Fakten",
+    "description": "Die aktive Faktenprüfungs-Engine, die Beziehungen über geleakte Dokumente, Finanzunterlagen und öffentliche Aussagen hinweg kartiert. FactWeaver sucht nicht nur - es denkt, verbindet und prüft aktiv Ihre Geschichten auf Widersprüche vor der Veröffentlichung.",
+    "cta": {
+      "primary": "Kostenlos testen",
+      "secondary": "Demo ansehen"
+    },
+    "stats": {
+      "companies": "Von führenden Redaktionen vertraut",
+      "reduction": "10M+ analysierte Dokumente",
+      "faster": "85% schnellere Recherchen"
+    }
+  },
+  "features": {
+    "title": "Das komplette Investigativ-Toolkit",
+    "subtitle": "Von der Dokumentenaufnahme bis zur Widerspruchserkennung - FactWeaver bietet alles, was Investigativteams brauchen, um die Wahrheit aufzudecken.",
+    "list": {
+      "graphRag": {
+        "title": "GraphRAG-Intelligenz",
+        "description": "Unser Wissensgraph versteht Beziehungen zwischen Personen, Organisationen, Finanztransaktionen und Dokumenten. Stellen Sie Fragen in natürlicher Sprache und entdecken Sie verborgene Verbindungen über Millionen von Datensätzen."
+      },
+      "visualization": {
+        "title": "Das Holoboard",
+        "description": "Ein 3D, WebGL-basiertes Detektiv-Board, das Entitätsbeziehungen visualisiert. Nutzen Sie den Zeitleisten-Regler als 'DVR für Korruption' - beobachten Sie, wie Verbindungen im Laufe der Zeit entstehen."
+      },
+      "ingestion": {
+        "title": "Der LeakLoader",
+        "description": "Universeller Adapter für die chaotische Realität. Drag-and-Drop von PST-E-Mails, PDFs, Kontoauszügen und Web-Scrapes. Automatische Entitätsextraktion identifiziert Personen, Organisationen und Geldflüsse."
+      },
+      "governance": {
+        "title": "Der Fact-Linter",
+        "description": "Aktive Widerspruchserkennung während Sie schreiben. Unsere Chrome/Word-Erweiterung hebt Behauptungen hervor, die Ihrer Beweislage widersprechen, komplett mit Quellenangaben."
+      },
+      "personas": {
+        "title": "Sanktions-Abgleich",
+        "description": "Automatischer Abgleich jedes aufgenommenen Namens mit globalen Sanktionslisten (OFAC, EU, UN). Sofortige Benachrichtigung, wenn Zielpersonen in Ihren Dokumenten erscheinen."
+      },
+      "timeMachine": {
+        "title": "Der Maulwurf",
+        "description": "Hintergrund-Überwachung, die neue Dokumente bei Ankunft scannt. Erhalten Sie Alerts, wenn neue Beweise mit Ihren bestehenden Ermittlungszielen verbunden sind."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "So funktioniert es",
+    "subtitle": "Drei Schritte zur Aufdeckung der Wahrheit",
+    "steps": {
+      "ingest": {
+        "title": "1. Alles aufnehmen",
+        "description": "Laden Sie geleakte Dokumente, E-Mails, Finanzunterlagen und öffentliche Einreichungen hoch. FactWeaver extrahiert automatisch Entitäten, Beziehungen und baut Ihren Ermittlungs-Wissensgraphen."
+      },
+      "analyze": {
+        "title": "2. Verbindungen erkunden",
+        "description": "Nutzen Sie das Holoboard zur Visualisierung von Geldflüssen, Unternehmensstrukturen und versteckten Beziehungen. Klicken Sie auf zwei Entitäten, um den kürzesten Einflussweg zwischen ihnen zu finden."
+      },
+      "govern": {
+        "title": "3. Geschichte verifizieren",
+        "description": "Der Fact-Linter prüft aktiv Ihr Schreiben gegen die Beweise. Erhalten Sie Echtzeit-Alerts, wenn Ihre Behauptungen der dokumentierten Realität widersprechen."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Vertraut von Investigativteams",
+    "subtitle": "Erfahren Sie, wie Redaktionen ihre investigativen Fähigkeiten transformieren",
+    "items": [
+      {
+        "quote": "FactWeaver half uns, Briefkastenfirmen mit Politikern über 4 Jurisdiktionen in Tagen statt Monaten zu verbinden. Es ist wie ein übermenschlicher Rechercheur im Team.",
+        "author": "Marina Kovacs",
+        "role": "Investigativ-Redakteurin",
+        "company": "European Press Network"
+      },
+      {
+        "quote": "Der Fact-Linter hat drei potenzielle Verleumdungsprobleme erkannt, bevor wir in Druck gingen. Die Quellenangaben waren wasserdicht.",
+        "author": "David Chen",
+        "role": "Rechts-Reporter",
+        "company": "Global Tribune"
+      },
+      {
+        "quote": "Wir haben das gesamte Leak in 48 Stunden verarbeitet. Ohne FactWeaver hätte unser Team sechs Monate gebraucht, um diese Verbindungen zu finden.",
+        "author": "Dr. Sarah Williams",
+        "role": "Datenjournalismus-Leiterin",
+        "company": "Investigative Insights"
+      }
+    ]
+  }
+}

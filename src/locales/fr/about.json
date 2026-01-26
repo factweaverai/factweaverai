@@ -1,0 +1,60 @@
+{
+  "about": {
+    "title": "À Propos de FactWeaver",
+    "subtitle": "Notre mission est d'armer les chercheurs de vérité avec une intelligence investigative alimentée par l'IA.",
+    "story": {
+      "title": "Notre Histoire",
+      "content": "FactWeaver est né d'une observation simple : le monde se noie dans les documents fuités et la désinformation, mais les outils pour relier les points n'ont pas suivi. Les journalistes reçoivent des téraoctets de données mais manquent de moyens pour trouver l'aiguille dans la botte de foin.\n\nNous avons vécu cette frustration en travaillant aux côtés d'équipes d'investigation dans de grandes publications. Nous avons vu des reporters passer des mois à croiser manuellement des documents, manquant des connexions cruciales cachées en pleine vue.\n\nNous avons construit FactWeaver pour être le 'Système d'Exploitation pour la Vérité' - une plateforme qui ne se contente pas de chercher dans les documents, mais raisonne activement sur les relations, fait émerger les contradictions et protège les sources avec une confidentialité de niveau militaire.\n\nAujourd'hui, nous aidons des équipes d'investigation à travers le monde à tenir les puissants responsables, une connexion vérifiée à la fois."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "content": "Combler l'Écart Narratif - la distance entre ce que les personnalités puissantes affirment et ce que les preuves démontrent - en permettant aux journalistes de vérifier la vérité à la vitesse de la désinformation."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "items": [
+        {
+          "title": "Protection des Sources d'Abord",
+          "description": "Rien n'est plus important que de protéger ceux qui risquent tout pour exposer la vérité. La confidentialité n'est pas une fonctionnalité - c'est notre fondation."
+        },
+        {
+          "title": "Exactitude Avant Vitesse",
+          "description": "Dans la lutte contre la désinformation, avoir raison compte plus qu'être premier. Nous construisons des outils qui vérifient, pas qui amplifient."
+        },
+        {
+          "title": "Démocratiser l'Investigation",
+          "description": "Les outils d'investigation puissants ne devraient pas être réservés aux plus grandes rédactions. Nous rendons l'intelligence de niveau professionnel accessible à tous les chercheurs de vérité."
+        },
+        {
+          "title": "Technologie Transparente",
+          "description": "Notre IA explique son raisonnement et cite ses sources. Pas de boîtes noires. Chaque connexion peut être retracée jusqu'aux preuves."
+        }
+      ]
+    },
+    "team": {
+      "title": "Équipe de Direction",
+      "members": [
+        {
+          "name": "Dr. Elena Voss",
+          "role": "CEO & Co-Fondatrice",
+          "bio": "Ancienne journaliste data d'investigation à l'ICIJ. A dirigé l'analyse de données pour l'enquête Panama Papers."
+        },
+        {
+          "name": "Marcus Chen",
+          "role": "CTO & Co-Fondateur",
+          "bio": "Ex-Responsable Sécurité chez Signal. Doctorat en Systèmes de Préservation de la Vie Privée du MIT."
+        },
+        {
+          "name": "Anna Kowalski",
+          "role": "VP Produit",
+          "bio": "Ancienne responsable produit chez Bellingcat. Experte en outils et méthodologies OSINT."
+        },
+        {
+          "name": "James Okonkwo",
+          "role": "VP Ingénierie",
+          "bio": "A construit des plateformes de collaboration sécurisées au Guardian et Der Spiegel."
+        }
+      ]
+    }
+  }
+}

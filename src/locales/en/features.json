@@ -1,0 +1,123 @@
+{
+  "featuresPage": {
+    "hero": {
+      "badge": "Investigative Intelligence",
+      "title": "Everything You Need to Uncover the Truth",
+      "subtitle": "From document ingestion to contradiction detection, FactWeaver provides the complete platform for investigative journalism at any scale.",
+      "cta": "Start Free Trial",
+      "ctaSecondary": "View Pricing"
+    },
+    "main": {
+      "graphRag": {
+        "title": "GraphRAG Intelligence",
+        "description": "Our knowledge graph understands the deep relationships between people, organizations, transactions, and documents. Ask questions in natural language and discover connections that would take months to find manually.",
+        "benefits": [
+          "Natural language queries across all your documents",
+          "Automatic entity extraction (people, orgs, money)",
+          "Relationship mapping and pathfinding",
+          "Source citations for every connection",
+          "Network detection for hidden structures"
+        ]
+      },
+      "visualization": {
+        "title": "The Holoboard",
+        "description": "A 3D, WebGL-powered detective board that brings your investigation to life. Pin entities, trace connections, and use the timeline slider as a 'DVR for corruption' to watch relationships form over time.",
+        "benefits": [
+          "Interactive 3D visualization of relationships",
+          "Timeline slider for temporal analysis",
+          "Click-to-trace pathfinding between entities",
+          "Export visualizations for publication",
+          "Collaborative investigation boards"
+        ]
+      },
+      "ingestion": {
+        "title": "The LeakLoader",
+        "description": "Universal adapter for the messy reality of leaked data. Drag-and-drop any format - emails, PDFs, spreadsheets, database dumps - and watch as FactWeaver extracts entities, matches sanctions lists, and builds your knowledge graph.",
+        "benefits": [
+          "PST/MBOX email ingestion",
+          "PDF OCR and text extraction",
+          "CSV/Excel financial analysis",
+          "Automatic entity recognition",
+          "Sanctions list matching (OFAC, EU, UN)"
+        ]
+      },
+      "governance": {
+        "title": "The Fact-Linter",
+        "description": "Active contradiction detection that works as you write. Our Chrome and Word extension highlights claims that conflict with your evidence base, providing source citations to strengthen your reporting.",
+        "benefits": [
+          "Real-time contradiction detection",
+          "Source citation suggestions",
+          "Libel risk flagging",
+          "Integration with major publishing tools",
+          "Custom verification rules"
+        ]
+      }
+    },
+    "additional": {
+      "title": "And Much More",
+      "subtitle": "Every feature designed to help you investigate faster and publish with confidence.",
+      "features": {
+        "timeMachine": {
+          "title": "Timeline Analysis",
+          "description": "Scrub through time to see when entities first appeared, when relationships formed, and how networks evolved."
+        },
+        "personas": {
+          "title": "Team Collaboration",
+          "description": "Secure workspaces for investigative teams with role-based access and audit logging."
+        },
+        "search": {
+          "title": "Semantic Search",
+          "description": "Find relevant documents even when you don't know the exact keywords to search for."
+        },
+        "alerts": {
+          "title": "The Mole",
+          "description": "Background monitoring that alerts you when new documents connect to your investigation targets."
+        },
+        "analytics": {
+          "title": "Investigation Analytics",
+          "description": "Track your progress, identify gaps in your evidence, and prioritize leads."
+        },
+        "workflows": {
+          "title": "Export & Publish",
+          "description": "Generate timelines, relationship charts, and evidence packages for publication."
+        },
+        "security": {
+          "title": "Air-Gap Ready",
+          "description": "Full functionality on isolated networks for maximum source protection."
+        },
+        "performance": {
+          "title": "Leak-Scale Ready",
+          "description": "Built to handle terabytes of documents and millions of entities."
+        }
+      }
+    },
+    "capabilities": {
+      "title": "Built for Real Investigations",
+      "subtitle": "Capabilities designed for the complexity and sensitivity of investigative journalism.",
+      "items": {
+        "codeAnalysis": {
+          "title": "Multi-Format Support",
+          "description": "PST, MBOX, PDF, CSV, HTML, JSON, and more. We handle the formats leaked data actually comes in."
+        },
+        "docSync": {
+          "title": "Entity Resolution",
+          "description": "Automatically match variations of names and organizations across documents and sources."
+        },
+        "multiRepo": {
+          "title": "Multi-Source Fusion",
+          "description": "Combine leaked documents with public records, corporate filings, and sanctions databases."
+        },
+        "globalScale": {
+          "title": "Local-First Privacy",
+          "description": "Deploy on your own infrastructure for complete source protection. Zero data egress."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Investigations?",
+      "subtitle": "Join investigative teams worldwide who trust FactWeaver to uncover the truth.",
+      "button": "Start Your Free Trial"
+    },
+    "learnMore": "Learn more"
+  }
+}

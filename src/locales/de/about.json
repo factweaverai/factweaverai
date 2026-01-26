@@ -1,0 +1,60 @@
+{
+  "about": {
+    "title": "Über FactWeaver",
+    "subtitle": "Unsere Mission ist es, Wahrheitssucher mit KI-gestützter investigativer Intelligenz zu bewaffnen.",
+    "story": {
+      "title": "Unsere Geschichte",
+      "content": "FactWeaver entstand aus einer einfachen Beobachtung: Die Welt ertrinkt in geleakten Dokumenten und Desinformation, aber die Werkzeuge, um die Punkte zu verbinden, haben nicht mitgehalten. Journalisten erhalten Terabytes an Daten, haben aber keine Mittel, die Nadel im Heuhaufen zu finden.\n\nWir haben diese Frustration erlebt, als wir mit Investigativteams bei großen Publikationen zusammenarbeiteten. Wir sahen Reporter, die Monate damit verbrachten, Dokumente manuell gegenzuprüfen und dabei entscheidende Verbindungen übersahen.\n\nWir haben FactWeaver als das 'Betriebssystem für Wahrheit' gebaut - eine Plattform, die Dokumente nicht nur durchsucht, sondern aktiv über Beziehungen nachdenkt, Widersprüche aufdeckt und Quellen mit militärischer Privatsphäre schützt.\n\nHeute helfen wir Investigativteams weltweit, Macht zur Rechenschaft zu ziehen, eine verifizierte Verbindung nach der anderen."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "content": "Die Narrativ-Lücke zu überbrücken - die Distanz zwischen dem, was mächtige Persönlichkeiten behaupten, und dem, was die Beweise belegen - um Journalisten zu befähigen, Wahrheit mit der Geschwindigkeit der Desinformation zu verifizieren."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "items": [
+        {
+          "title": "Quellenschutz zuerst",
+          "description": "Nichts ist wichtiger als der Schutz derer, die alles riskieren, um die Wahrheit aufzudecken. Privatsphäre ist keine Funktion - sie ist unser Fundament."
+        },
+        {
+          "title": "Genauigkeit vor Geschwindigkeit",
+          "description": "Im Kampf gegen Desinformation ist Richtigkeit wichtiger als Schnelligkeit. Wir bauen Werkzeuge, die verifizieren, nicht verstärken."
+        },
+        {
+          "title": "Ermittlung demokratisieren",
+          "description": "Leistungsfähige Investigativ-Werkzeuge sollten nicht den größten Redaktionen vorbehalten sein. Wir machen professionelle Intelligenz für alle Wahrheitssucher zugänglich."
+        },
+        {
+          "title": "Transparente Technologie",
+          "description": "Unsere KI erklärt ihre Schlussfolgerungen und zitiert ihre Quellen. Keine Blackboxen. Jede Verbindung kann auf Beweise zurückgeführt werden."
+        }
+      ]
+    },
+    "team": {
+      "title": "Führungsteam",
+      "members": [
+        {
+          "name": "Dr. Elena Voss",
+          "role": "CEO & Mitgründerin",
+          "bio": "Ehemalige investigative Datenjournalistin beim ICIJ. Leitete die Datenanalyse für die Panama-Papers-Ermittlung."
+        },
+        {
+          "name": "Marcus Chen",
+          "role": "CTO & Mitgründer",
+          "bio": "Ex-Security-Lead bei Signal. PhD in Privacy-Preserving Systems vom MIT."
+        },
+        {
+          "name": "Anna Kowalski",
+          "role": "VP of Product",
+          "bio": "Ehemalige Produktleiterin bei Bellingcat. Expertin für OSINT-Tools und -Methoden."
+        },
+        {
+          "name": "James Okonkwo",
+          "role": "VP of Engineering",
+          "bio": "Baute sichere Kollaborationsplattformen beim Guardian und Der Spiegel."
+        }
+      ]
+    }
+  }
+}
