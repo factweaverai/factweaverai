@@ -1,56 +1,43 @@
-import { Inter } from 'next/font/google';
-import { ThemeProvider } from '@/components/ThemeProvider';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import '@/styles/globals.css';
-import { LanguageProvider } from '@/context/LanguageContext';
-import CookieBanner from '@/components/CookieBanner';
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
 
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
 });
 
-export const metadata = {
-  title: {
-    default: "FactWeaver - The Active Fact-Checking Engine",
-    template: `%s | FactWeaver`,
-  },
-  description: "Bridge the Narrative Gap between what public figures say and what the data proves. AI-powered investigative intelligence for journalists.",
-  keywords: [
-    'investigative journalism',
-    'fact-checking',
-    'GraphRAG',
-    'document analysis',
-    'leak investigation',
-    'truth verification',
-  ],
-  authors: [{ name: 'FactWeaver' }],
-  openGraph: {
-    type: 'website',
-    siteName: 'FactWeaver',
-  },
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "FactWeaver AI - BMW Enthusiast Tools",
+  description: "Software solutions for the BMW coding and diagnostics community.",
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} font-sans antialiased`}>
-        <LanguageProvider>
-          <ThemeProvider>
-            <div className="min-h-screen flex flex-col">
-              <Header />
-              <main className="flex-1">{children}</main>
-              <Footer />
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>
+        <div className="layout-container">
+          <header className="header">
+            <div className="container">
+              <div className="logo-text">FactWeaver AI</div>
             </div>
-            <CookieBanner />
-          </ThemeProvider>
-        </LanguageProvider>
+          </header>
+          <main className="main">{children}</main>
+          <footer className="footer">
+            <div className="container">
+              <p>&copy; {new Date().getFullYear()} FactWeaver AI. Built for the BMW community.</p>
+            </div>
+          </footer>
+        </div>
       </body>
     </html>
   );
