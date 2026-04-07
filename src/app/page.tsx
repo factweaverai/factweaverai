@@ -22,21 +22,21 @@ export default function Home() {
           <h2 className="section-title">Key Projects</h2>
           <div className="grid">
             <div className="card">
-              <h3 className="card-title">Core Infrastructure</h3>
+              <h3 className="card-title">Fact Verification</h3>
               <p className="card-desc">
-                Foundational tools and libraries that power the factweaverai ecosystem.
+                Automated cross-referencing of claims against immutable records.
               </p>
             </div>
             <div className="card">
-              <h3 className="card-title">Open Standards</h3>
+              <h3 className="card-title">Knowledge Synthesis</h3>
               <p className="card-desc">
-                Commitment to interoperability and community-driven development.
+                Building relationships between isolated facts to reveal patterns.
               </p>
             </div>
             <div className="card">
-              <h3 className="card-title">Advanced Research</h3>
+              <h3 className="card-title">Hallucination Mitigation</h3>
               <p className="card-desc">
-                Exploring the frontiers of technology to solve tomorrow's challenges today.
+                Grounding layer that prevents AI models from drifting into fabrication.
               </p>
             </div>
           </div>
