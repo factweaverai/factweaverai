@@ -1,20 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import CookieBanner from "../components/CookieBanner";
 
 export const metadata: Metadata = {
-  title: "FactWeaver AI - BMW Enthusiast Tools",
-  description: "Software solutions for the BMW coding and diagnostics community.",
+  title: "FactWeaver AI",
+  description: "Truth-verification engine and knowledge synthesis.",
 };
 
 export default function RootLayout({
@@ -23,21 +15,27 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body>
-        <div className="layout-container">
-          <header className="header">
-            <div className="container">
-              <div className="logo-text">FactWeaver AI</div>
-            </div>
-          </header>
-          <main className="main">{children}</main>
-          <footer className="footer">
-            <div className="container">
-              <p>&copy; {new Date().getFullYear()} FactWeaver AI. Built for the BMW community.</p>
-            </div>
-          </footer>
-        </div>
+    <html lang="en">
+      <head>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script dangerouslySetInnerHTML={{__html: `
+          tailwind.config = {
+            theme: {
+              extend: {
+                colors: {
+                  primary: '#2563eb',
+                  secondary: '#475569',
+                }
+              }
+            }
+          }
+        `}}></script>
+      </head>
+      <body className="flex flex-col min-h-screen bg-white text-gray-900 font-sans">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
+        <CookieBanner />
       </body>
     </html>
   );
