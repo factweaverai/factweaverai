@@ -1,23 +1,24 @@
+"use client";
+import { motion } from "framer-motion";
 import AnimatedSection from "../../components/AnimatedSection";
+import { useTranslation } from "../../context/LanguageContext";
 
 export default function About() {
+  const { t } = useTranslation();
   return (
-    <div className="py-24 bg-white dark:bg-gray-950 transition-colors duration-300">
-      <div className="container mx-auto px-4 max-w-4xl">
+    <div className="py-24 relative overflow-hidden">
+      <div className="container mx-auto px-4 max-w-4xl relative z-10">
         <AnimatedSection>
-          <h1 className="text-5xl font-extrabold mb-10 text-gray-900 dark:text-white">About Us</h1>
-          <div className="mb-12 rounded-[2rem] overflow-hidden shadow-2xl border border-gray-200 dark:border-gray-800">
+          <h1 className="text-5xl font-extrabold mb-10 text-white">About Us</h1>
+          <motion.div className="mb-12 rounded-[2rem] overflow-hidden shadow-2xl border border-white/10" whileHover={{ scale: 1.01 }}>
             <img src="/images/about.jpg" alt="About factweaver AI" className="w-full object-cover aspect-[21/9]" />
-          </div>
-          <p className="text-2xl text-gray-700 dark:text-gray-300 mb-8 leading-relaxed font-light">
-            Weaving facts into trusted knowledge.
+          </motion.div>
+          <p className="text-2xl text-gray-400 mb-8 leading-relaxed font-light">
+            Living Knowledge Graphs
           </p>
-          <div className="prose prose-lg dark:prose-invert text-gray-600 dark:text-gray-400 space-y-6">
-            <p className="text-lg">
-              factweaver AI builds living knowledge graphs that adapt to new evidence. We combine natural language understanding with symbolic reasoning to extract structured facts from unstructured documents.
-            </p>
-            <p className="text-lg">
-              Our provenance engine tracks every assertion back to its primary source, enabling auditors, journalists, and researchers to verify claims with a single click.
+          <div className="space-y-6">
+            <p className="text-lg text-gray-400 leading-relaxed">
+              factweaver AI combines natural language understanding with symbolic reasoning to extract structured facts from unstructured documents. Our provenance engine tracks every assertion back to its primary source.
             </p>
           </div>
         </AnimatedSection>

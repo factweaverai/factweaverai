@@ -1,38 +1,44 @@
 "use client";
 import Link from "next/link";
 import { useTranslation } from "../context/LanguageContext";
+import { motion } from "framer-motion";
 
 export default function Footer() {
   const { t } = useTranslation();
-
   return (
-    <footer className="bg-gray-50 dark:bg-gray-800/50 border-t border-gray-200 dark:border-gray-700 pt-16 pb-8 mt-auto transition-colors duration-300">
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
-        <div>
-          <h4 className="font-extrabold text-2xl mb-6 text-gray-900 dark:text-white">{t.hero.title}</h4>
-          <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-            {t.footer.tagline}
-          </p>
+    <motion.footer initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
+      className="border-t border-white/10 py-16">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div>
+            <Link href="/" className="text-2xl font-extrabold text-white tracking-tight flex items-center gap-2 mb-4">
+              <img src="/logo.svg" alt="logo" className="w-8 h-8" />
+              {t.hero.title}
+            </Link>
+            <p className="text-gray-400">{t.footer.tagline}</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-white mb-4">{t.footer.links}</h4>
+            <div className="space-y-2">
+              <Link href="/" className="block text-gray-400 hover:text-primary transition-colors">{t.common.home}</Link>
+              <Link href="/about" className="block text-gray-400 hover:text-primary transition-colors">{t.common.about}</Link>
+              <Link href="/contact" className="block text-gray-400 hover:text-primary transition-colors">{t.common.contact}</Link>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-bold text-white mb-4">{t.footer.legal}</h4>
+            <div className="space-y-2">
+              <Link href="/privacy" className="block text-gray-400 hover:text-primary transition-colors">{t.common.privacy}</Link>
+              <Link href="/impressum" className="block text-gray-400 hover:text-primary transition-colors">{t.common.impressum}</Link>
+            </div>
+          </div>
         </div>
-        <div>
-          <h4 className="font-bold text-xl mb-6 text-gray-900 dark:text-white">{t.footer.links}</h4>
-          <ul className="space-y-4 text-gray-600 dark:text-gray-400 text-lg">
-            <li><Link href="/" className="hover:text-primary transition-colors">{t.common.home}</Link></li>
-            <li><Link href="/about" className="hover:text-primary transition-colors">{t.common.about}</Link></li>
-            <li><Link href="/contact" className="hover:text-primary transition-colors">{t.common.contact}</Link></li>
-          </ul>
-        </div>
-        <div>
-          <h4 className="font-bold text-xl mb-6 text-gray-900 dark:text-white">{t.footer.legal}</h4>
-          <ul className="space-y-4 text-gray-600 dark:text-gray-400 text-lg">
-            <li><Link href="/impressum" className="hover:text-primary transition-colors">{t.common.impressum}</Link></li>
-            <li><Link href="/privacy" className="hover:text-primary transition-colors">{t.common.privacy}</Link></li>
-          </ul>
+        <div className="mt-12 pt-8 border-t border-white/10 text-center text-gray-400 text-sm">
+          © {new Date().getFullYear()} {t.hero.title}. {t.footer.rights}
         </div>
       </div>
-      <div className="container mx-auto px-4 pt-8 border-t border-gray-200 dark:border-gray-700 text-center text-gray-500 dark:text-gray-400">
-        &copy; {new Date().getFullYear()} {t.hero.title}. {t.footer.rights}
-      </div>
-    </footer>
+    </motion.footer>
   );
 }
+
+print("Header/Footer loaded")
