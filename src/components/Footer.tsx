@@ -41,4 +41,3 @@ export default function Footer() {
   );
 }
 
-print("Header/Footer loaded")

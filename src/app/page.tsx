@@ -42,7 +42,7 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <motion.a href="https://github.com/factweaverai" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
-                  <Button variant="contained" size="large" endIcon={<ArrowRight />} sx={{ px: 4, py: 2, fontSize: "1.1rem", boxShadow: "0 8px 32px primary.main + "40"" }}>
+                  <Button variant="contained" size="large" endIcon={<ArrowRight />} sx={{ px: 4, py: 2, fontSize: "1.1rem", boxShadow: "0 8px 32px '#F59E0B'40" }}>
                     {t.hero.cta_github}
                   </Button>
                 </motion.a>
@@ -91,7 +91,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {features.map((f, i) => (
               <AnimatedSection key={i} delay={0.1 + i * 0.1}>
-                <motion.div whileHover={{ y: -8, boxShadow: "0 20px 60px -10px " + "#F59E0B" + "30" }} transition={{ type: "spring", stiffness: 300 }}
+                <motion.div whileHover={{ y: -8, boxShadow: `0 20px 60px -10px X` }} transition={{ type: "spring", stiffness: 300 }}
                   className="bg-white/5 backdrop-blur-md p-10 rounded-3xl shadow-sm border-white/10 border hover:border-primary/30 transition-all group">
                   <div className="bg-primary/10 p-4 rounded-2xl text-primary w-fit mb-8 group-hover:scale-110 transition-transform">
                     {f.icon}
